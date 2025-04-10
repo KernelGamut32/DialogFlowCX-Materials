@@ -1,0 +1,1458 @@
+{
+  "intents": [ {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/03f2643a-980a-44df-b716-e9daa0e60ba9",
+    "displayName": "confirm.proceed.order",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Okay"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Purchase"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Buy it"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Go ahead"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Agree"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I confirm"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yep"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yeah"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yes order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yes, please continue"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yes"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/0ad8be23-35aa-4b57-993a-a6bebcfd6030",
+    "displayName": "redirect.swapping.info",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "I want to swap the "
+      }, {
+        "text": "CD",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Can I change my product?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Can I change my "
+      }, {
+        "text": "t-shirt",
+        "parameterId": "merch"
+      }, {
+        "text": " for a larger size?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to swap my item"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "merch",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/704f44bb-08e1-441c-8726-1308296ecfeb"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/0f54f0a9-b8a1-490e-9e10-75cbdf62918a",
+    "displayName": "redirect.order.process",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Please order me "
+      }, {
+        "text": "the Google Dolls",
+        "parameterId": "artist"
+      }, {
+        "text": " "
+      }, {
+        "text": "CD",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Purchase the "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      }, {
+        "text": " "
+      }, {
+        "text": "t-shirt",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Buy a "
+      }, {
+        "text": "longsleeve shirt",
+        "parameterId": "merch"
+      }, {
+        "text": " of "
+      }, {
+        "text": "The Goo Fighters",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Get me the "
+      }, {
+        "text": "tour movie",
+        "parameterId": "merch"
+      }, {
+        "text": " of "
+      }, {
+        "text": "G's N' Roses",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Let me buy the digital "
+      }, {
+        "text": "CD",
+        "parameterId": "merch"
+      }, {
+        "text": " of "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to buy a "
+      }, {
+        "text": "t-shirt",
+        "parameterId": "merch"
+      }, {
+        "text": " of "
+      }, {
+        "text": "the Google Dolls",
+        "parameterId": "artist"
+      }, {
+        "text": ", size "
+      }, {
+        "text": "S",
+        "parameterId": "shirtsize"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "merch",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/704f44bb-08e1-441c-8726-1308296ecfeb"
+    }, {
+      "id": "artist",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/e552b7cb-4af9-4af5-9d3c-9d388c151cbc"
+    }, {
+      "id": "shirtsize",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/bf5c1ef0-ca2d-47f3-9095-ad1cb5971a2c"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/3619df5f-fb4d-4f55-9fea-291ea5e6d522",
+    "displayName": "redirect.product",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Can I purchase the "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      }, {
+        "text": " "
+      }, {
+        "text": "digital album",
+        "parameterId": "merch"
+      }, {
+        "text": "?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to buy a "
+      }, {
+        "text": "t-shirt",
+        "parameterId": "merch"
+      }, {
+        "text": " size "
+      }, {
+        "text": "M",
+        "parameterId": "shirtsize"
+      }, {
+        "text": " of "
+      }, {
+        "text": "The Google Dolls",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Can I purchase a record?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to buy something"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want the "
+      }, {
+        "text": "CD",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Can I buy a "
+      }, {
+        "text": "digital album",
+        "parameterId": "merch"
+      }, {
+        "text": "?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I am interested in a "
+      }, {
+        "text": "t-shirt",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Tour movie",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "merch",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/704f44bb-08e1-441c-8726-1308296ecfeb"
+    }, {
+      "id": "shirtsize",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/bf5c1ef0-ca2d-47f3-9095-ad1cb5971a2c"
+    }, {
+      "id": "artist",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/e552b7cb-4af9-4af5-9d3c-9d388c151cbc"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/4a6ecde4-be46-4a17-8414-8ff244ca01b7",
+    "displayName": "redirect.shirt.size",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Extra Large",
+        "parameterId": "shirtsize"
+      }, {
+        "text": " is the size"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "My size is "
+      }, {
+        "text": "3XL",
+        "parameterId": "shirtsize"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want "
+      }, {
+        "text": "Large",
+        "parameterId": "shirtsize"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I have "
+      }, {
+        "text": "M",
+        "parameterId": "shirtsize"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "XS",
+        "parameterId": "shirtsize"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "shirtsize",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/bf5c1ef0-ca2d-47f3-9095-ad1cb5971a2c"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/4e0f6916-d9b4-4357-94bc-1af2a9b39fdc",
+    "displayName": "redirect.my.order.status",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "I'"
+      }, {
+        "text": "m"
+      }, {
+        "text": " trying to get an update on the status of my order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "what is the status of my order?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "status"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/5365020f-ea14-44b6-82ec-fdc4283afe5a",
+    "displayName": "decline.proceed.order",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "I don't need it"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Decline"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Reset"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Go back"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Nope"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Not anymore"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Stop"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Don't order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I don't want it anymore"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I rather not"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "No"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/69f0b3c4-e049-4ff9-8a5c-178c5c51dfab",
+    "displayName": "redirect.product.overview",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Please tell me what you have"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What merchandise?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Which products?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What are the items?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What are you selling?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What merchandise items do you have?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Which products do you sell?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/724ceda9-f94c-45b1-9c38-957f3a8e3c18",
+    "displayName": "redirect.product.of.artist",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Yes of "
+      }, {
+        "text": "The Google Dolls",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Google Dolls",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I am a "
+      }, {
+        "text": "G's N' Roses",
+        "parameterId": "artist"
+      }, {
+        "text": " fan!"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Anything "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Go for it"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yep, give me items of "
+      }, {
+        "text": "G's N' Roses",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yes, I want to order merchandise"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want "
+      }, {
+        "text": "The Goo Fighters",
+        "parameterId": "artist"
+      }, {
+        "text": " stuff"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yes"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Shirts of "
+      }, {
+        "text": "The Google Dolls",
+        "parameterId": "artist"
+      }, {
+        "text": " that would be nice."
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Give me merch of "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yeah, let'"
+      }, {
+        "text": "s"
+      }, {
+        "text": " shop"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "shirtsize",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/bf5c1ef0-ca2d-47f3-9095-ad1cb5971a2c"
+    }, {
+      "id": "artist",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/e552b7cb-4af9-4af5-9d3c-9d388c151cbc"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/7b0e421d-2224-4a66-b7d9-9734091721f1",
+    "displayName": "redirect.album",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Hits",
+        "parameterId": "album"
+      }, {
+        "text": " on "
+      }, {
+        "text": "MP3",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Give me the "
+      }, {
+        "text": "Greatest Hits",
+        "parameterId": "album"
+      }, {
+        "text": " "
+      }, {
+        "text": "CD",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want the "
+      }, {
+        "text": "Greatest Hits",
+        "parameterId": "album"
+      }, {
+        "text": " "
+      }, {
+        "text": "Digital Album",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Live",
+        "parameterId": "album"
+      }, {
+        "text": " Album"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Hits",
+        "parameterId": "album"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "album",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/1e6b1cf3-0b37-4982-b8c3-df7402539977"
+    }, {
+      "id": "merch",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/704f44bb-08e1-441c-8726-1308296ecfeb"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/7d662c3b-508a-4b4e-a1f8-9b31e85531e8",
+    "displayName": "redirect.my.order.canceled",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Cancel"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Stop my order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Undo my order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Please cancel order "
+      }, {
+        "text": "ABCD123",
+        "parameterId": "ordernumber"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to cancel order "
+      }, {
+        "text": "ABCD123",
+        "parameterId": "ordernumber"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to cancel my order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "ordernumber",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/fdd61051-0946-4fb0-94a4-857df53feb9e"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/af7ca1da-6212-4aa9-a9ec-992a899d8e3c",
+    "displayName": "redirect.price",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "What is the price?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What does it cost?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What does each product costs?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What'"
+      }, {
+        "text": "s"
+      }, {
+        "text": " the price difference?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to know the price of a "
+      }, {
+        "text": "longsleeve shirt",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "The album is how much?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What'"
+      }, {
+        "text": "s"
+      }, {
+        "text": " the price for the "
+      }, {
+        "text": "tour movie",
+        "parameterId": "merch"
+      }, {
+        "text": "?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "How much does a "
+      }, {
+        "text": "t-shirt",
+        "parameterId": "merch"
+      }, {
+        "text": " cost?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "merch",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/704f44bb-08e1-441c-8726-1308296ecfeb"
+    }, {
+      "id": "shirtsize",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/bf5c1ef0-ca2d-47f3-9095-ad1cb5971a2c"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/bb05ca05-3253-4552-9280-040a77cd38b1",
+    "displayName": "redirect.shirts",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "I want to buy shirts of "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Give me shirts of "
+      }, {
+        "text": "the Google Dolls",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Shirts of "
+      }, {
+        "text": "G's N' Roses",
+        "parameterId": "artist"
+      }, {
+        "text": " please"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want a shirt"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I am interested in shirts"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to buy shirts"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Shirts"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "artist",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/e552b7cb-4af9-4af5-9d3c-9d388c151cbc"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/be5c00e5-ad5b-4e66-8015-49e42358c473",
+    "displayName": "redirect.shipping.info",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "When will I receive it?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "How long does shipping take?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "How long is shipping?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "How long will it take?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/dc30cb46-8a78-48e8-94b7-fdbf5bef6fa1",
+    "displayName": "confirm.artists.overview",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Ok, let'"
+      }, {
+        "text": "s"
+      }, {
+        "text": " buy stuff."
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yes, I would like to order merchandise from "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yes, I want to purchase something"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Yeah, let me buy merchandise"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "artist",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/e552b7cb-4af9-4af5-9d3c-9d388c151cbc"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/e4db2e27-8009-4cde-b419-7bbac45f01d9",
+    "displayName": "redirect.artists.overview",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Can I get an overview of all the artists"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What music can I order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "From who can I buy shirts"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Who are supported by the label"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I would like to know who are signed to the label"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Which music do you have?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Band"
+      }, {
+        "text": " merchandise"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "From which bands can I buy merchandise"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Who is part of the label"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Which artists are part of the record label"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Which artists"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Which bands"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Which bands are signed?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/efb40538-00b6-4143-8e2f-0920915798ea",
+    "displayName": "redirect.refund.info",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "I want to return my "
+      }, {
+        "text": "t-shirt",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to return the "
+      }, {
+        "text": "CD",
+        "parameterId": "merch"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Can I get a refund"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want a refund."
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "merch",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/704f44bb-08e1-441c-8726-1308296ecfeb"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/f9a98c6c-67c8-4e51-9757-3fa23bbd0b83",
+    "displayName": "redirect.my.order",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "My order is "
+      }, {
+        "text": "ABCD123",
+        "parameterId": "ordernumber"
+      }, {
+        "text": ", I have a question about my order."
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I have a question about my order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "About my order"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "ordernumber",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/fdd61051-0946-4fb0-94a4-857df53feb9e"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/fcd935b0-1b15-4ff1-8222-e5dc209b598b",
+    "displayName": "redirect.music",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Purchase "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      }, {
+        "text": " music"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Interested in buying the "
+      }, {
+        "text": "Alice Googler",
+        "parameterId": "artist"
+      }, {
+        "text": " album"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Music of "
+      }, {
+        "text": "Goo Fighters",
+        "parameterId": "artist"
+      }, {
+        "text": " please"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Give me music of "
+      }, {
+        "text": "the Goo Fighters",
+        "parameterId": "artist"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I am interested in music"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I want to buy music"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Music"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "parameters": [ {
+      "id": "artist",
+      "entityType": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/e552b7cb-4af9-4af5-9d3c-9d388c151cbc"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/ff13990d-ef18-45ff-85f1-0681420b5e1e",
+    "displayName": "redirect.home",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Good"
+      }, {
+        "text": " day!"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Hello"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Hi"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Advice please"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "I need help"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What questions can I ask"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Can you tell me what I can order?"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Restart"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "What else can I ask"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Help"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Home"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Go back"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/intents/f54dccfb-a2e2-4190-9c2a-2b7dc7b356f1",
+    "displayName": "redirect.end",
+    "trainingPhrases": [ {
+      "parts": [ {
+        "text": "Close"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "End Call"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Have a "
+      }, {
+        "text": "good"
+      }, {
+        "text": " day"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Exit"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "No more questions"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "That'"
+      }, {
+        "text": "s"
+      }, {
+        "text": " it"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "End"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Cheers"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "Bye"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }, {
+      "parts": [ {
+        "text": "No that'"
+      }, {
+        "text": "s"
+      }, {
+        "text": " it, goodbye"
+      } ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    } ],
+    "priority": 500000
+  } ],
+  "referencedEntityTypes": [ {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/1e6b1cf3-0b37-4982-b8c3-df7402539977",
+    "displayName": "Album",
+    "kind": "KIND_MAP",
+    "entities": [ {
+      "value": "Live",
+      "synonyms": [ "Live" ],
+      "languageCode": "en"
+    }, {
+      "value": "Greatest Hits",
+      "synonyms": [ "Greatest Hits", "Hits" ],
+      "languageCode": "en"
+    } ]
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/704f44bb-08e1-441c-8726-1308296ecfeb",
+    "displayName": "Merch",
+    "kind": "KIND_MAP",
+    "entities": [ {
+      "value": "T-shirt",
+      "synonyms": [ "T-shirt" ],
+      "languageCode": "en"
+    }, {
+      "value": "Longsleeve",
+      "synonyms": [ "Longsleeve", "Longsleeve shirt" ],
+      "languageCode": "en"
+    }, {
+      "value": "Tour Movie",
+      "synonyms": [ "Tour Movie" ],
+      "languageCode": "en"
+    }, {
+      "value": "Digital Album",
+      "synonyms": [ "Digital Album", "MP3", "MP3 Album" ],
+      "languageCode": "en"
+    }, {
+      "value": "CD",
+      "synonyms": [ "CD", "Disc", "Physical CD" ],
+      "languageCode": "en"
+    } ]
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/bf5c1ef0-ca2d-47f3-9095-ad1cb5971a2c",
+    "displayName": "ShirtSize",
+    "kind": "KIND_MAP",
+    "entities": [ {
+      "value": "XS",
+      "synonyms": [ "Extra Small", "XS" ],
+      "languageCode": "en"
+    }, {
+      "value": "S",
+      "synonyms": [ "S", "Small" ],
+      "languageCode": "en"
+    }, {
+      "value": "M",
+      "synonyms": [ "M", "Medium" ],
+      "languageCode": "en"
+    }, {
+      "value": "L",
+      "synonyms": [ "L", "Large" ],
+      "languageCode": "en"
+    }, {
+      "value": "XL",
+      "synonyms": [ "Extra Large", "XL" ],
+      "languageCode": "en"
+    }, {
+      "value": "2XL",
+      "synonyms": [ "2XL", "Extra Extra Large" ],
+      "languageCode": "en"
+    }, {
+      "value": "3XL",
+      "synonyms": [ "3XL" ],
+      "languageCode": "en"
+    } ]
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/e552b7cb-4af9-4af5-9d3c-9d388c151cbc",
+    "displayName": "Artist",
+    "kind": "KIND_MAP",
+    "entities": [ {
+      "value": "The Google Dolls",
+      "synonyms": [ "Google Dolls", "The Google Dolls" ],
+      "languageCode": "en"
+    }, {
+      "value": "The Goo Fighters",
+      "synonyms": [ "Goo Fighters", "The Goo Fighters" ],
+      "languageCode": "en"
+    }, {
+      "value": "G's N' Roses",
+      "synonyms": [ "G's N' Roses", "Gs and Roses" ],
+      "languageCode": "en"
+    }, {
+      "value": "Alice Googler",
+      "synonyms": [ "Alice Googler" ],
+      "languageCode": "en"
+    } ],
+    "enableFuzzyExtraction": true,
+    "redact": true
+  }, {
+    "name": "projects/playground-s-11-d52c57a6/locations/global/agents/7bf18eb3-f126-467d-88c5-2751cd09a2c7/entityTypes/fdd61051-0946-4fb0-94a4-857df53feb9e",
+    "displayName": "OrderNumber",
+    "kind": "KIND_REGEXP",
+    "entities": [ {
+      "value": "[A-Z]{4}[0-9]{3}",
+      "synonyms": [ "[A-Z]{4}[0-9]{3}" ],
+      "languageCode": "en"
+    } ]
+  } ]
+}
